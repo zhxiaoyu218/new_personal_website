@@ -1,0 +1,27 @@
+--- 
+#layout: post 
+layout: post 
+title: "Socially Aware Kalman Neural Networks for Trajectory Prediction" 
+date: 2015-12-02 00:52:31 -0700 
+category: Machine Learning 
+description: trajectory prediction involves socially aware interactive effects and dynamic uncertainties in autonomous driving
+permalink: /saknn.html
+title-image: saknn_title.png 
+---
+
+<div class="container">
+     <div class="row-1">
+        <p>
+        This research was done at the Baidu Intelligent Driving group while I was working on the <a href="https://zhxiaoyu218.github.io/baidu_apollo.html">path planning algorithm(lattice planner)</a>. The lattice planner requires the prediction of trajectory of the surrounding vehicles in order to compute the collision cost(if the trajectories are intersected). And current prediction algorithm provides less safety result. Therefore, we presented this novel algorithm. It has been submitted to AAAI this September and the paper can be found at <a href="https://arxiv.org/abs/1809.05408">arXiv</a>. In my opinion, It is important to ensure safe driving for self-diving. And a good prediction could reduce the accident.
+        </p>
+        <p>
+        Trajectory prediction is a critical technique in the navigation of robots and autonomous vehicles. However, the complex traffic and dynamic uncertainties yield challenges in the effectiveness and robustness in modeling. We purpose a data-driven approach socially aware Kalman neural networks (SAKNN) where the interaction layer and the Kalman layer are embedded in the architecture, resulting in a class of architectures with huge potential to directly learn from high variance sensor input and robustly generate low variance outcomes. The evaluation of our approach on NGSIM dataset demonstrates that SAKNN performs state-of-the-art on prediction effectiveness in a relatively long-term horizon and significantly improves the signal-to-noise ratio of the predicted signal.
+        </p>
+        </p>
+        Our model is:
+             <img class="img-fluid" src="assets/posts_img/saknn/model_pic.png" />
+    </div>
+        
+</div>
+
+    
